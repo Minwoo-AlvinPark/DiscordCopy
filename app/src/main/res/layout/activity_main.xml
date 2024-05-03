@@ -30,7 +30,7 @@
 
     <Button
         android:id="@+id/buttonConfirm"
-        android:layout_width="176dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
@@ -59,7 +59,7 @@
 
     <Button
         android:id="@+id/buttonAsk"
-        android:layout_width="177dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
@@ -79,7 +79,7 @@
 
     <Button
         android:id="@+id/buttonStudy"
-        android:layout_width="178dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
@@ -117,7 +117,7 @@
 
     <Button
         android:id="@+id/buttonConnect"
-        android:layout_width="181dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
@@ -155,7 +155,7 @@
 
     <Button
         android:id="@+id/buttonStudyRoom"
-        android:layout_width="188dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
@@ -163,7 +163,9 @@
         android:padding="10dp"
         android:text="스터디실"
         android:layout_marginLeft="5dp"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:onClick="showToast"
+        android:tag="스터디실" />
 
 
 </LinearLayout>
