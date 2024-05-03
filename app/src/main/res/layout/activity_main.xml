@@ -34,8 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
-        android:padding="16dp"
+        android:padding="10dp"
         android:text="확인해 주세요"
+        android:layout_marginLeft="5dp"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -62,8 +63,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
-        android:padding="16dp"
+        android:padding="10dp"
         android:text="무엇이든 물어보세요"
+        android:layout_marginLeft="5dp"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -81,8 +83,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
-        android:padding="16dp"
+        android:padding="10dp"
         android:text="열심히 교육받아요"
+        android:layout_marginLeft="5dp"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -118,8 +121,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
-        android:padding="16dp"
+        android:padding="10dp"
         android:text="친해져요"
+        android:layout_marginLeft="5dp"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -156,8 +160,9 @@
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/darker_gray"
         android:drawablePadding="8dp"
-        android:padding="16dp"
+        android:padding="10dp"
         android:text="스터디실"
+        android:layout_marginLeft="5dp"
         android:textColor="@android:color/white" />
 
 
